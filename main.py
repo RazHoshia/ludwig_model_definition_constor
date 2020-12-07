@@ -1,3 +1,5 @@
+import pandas
+
 def ludwig_get_model_definition(df: 'Dataframe', target: str, features: list):
     input_features, output_features = [], []
     for p in features:
